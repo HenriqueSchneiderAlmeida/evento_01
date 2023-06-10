@@ -11,13 +11,18 @@
         background-image: linear-gradient(variables.$red2, variables.$blue1);
     }
 
-    &--fondueQueijo {
+    &--CarneLouca {
         background-image: linear-gradient(variables.$blue1, variables.$pink);
     }
 
     &--RequeijaoBacon {
         background-image: linear-gradient(variables.$pink, variables.$yellow);
     }
+    
+    &--fondeuQueijo {
+        background-image: linear-gradient(variables.$yellow, variables.$red1);
+    }
+
 
     &--image-left {
         .container {
