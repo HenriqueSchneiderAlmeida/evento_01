@@ -9,18 +9,85 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
         <div class="container">
             <img class="hero__logo" src="./images/potatoes-3098865_1280.png" alt="LOGO" width="150px">
             <p class="hero__text">
-                O Festival MJ Batata Recheada Gourmet começa em 10d 12h 30m 25s
+                O Festival MJ Batata Recheada Gourmet começa em <span id="contador"></span>
             </p>
+            <div class="barra-evento">
+                <ul class="barra-evento__info">
+                    <li class="barra-evento__info__item">
+                        <b>Localização</b>
+                        São Paulo - Zona Oeste
+                    </li>
+                    <li class="barra-evento__info__item">
+                        <b>Preço</b>
+                        A partir de R$ 35,00
+                    </li>
+                    <li class="barra-evento__info__item">
+                        <b>Quando</b>
+                        01/07/2023 (sábado) com inicio às 17:00 hs
+                    </li>
+                </ul>
+                <a id="botaoGaranta" href="#" class="button button--primary">
+                    Garanta a sua batata
+                </a>
+            </div>
         </div>
-
     </header>
-
+    <section class="event event--camarao">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Batata com recheio de Camarão</h2>
+                <p class="event__details__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, provident repellat sunt placeat neque officiis vel. Debitis odit, iusto mollitia in molestiae ea voluptas laboriosam? Recusandae ea maxime exercitationem harum?
+                </p>
+            </div>
+            <img class="event__image" src="./images/camarao.webp" alt="frontend">
+        </div>
+    </section>
+    <section class="event event--strogonoff event--image-left">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Batata com recheio de Strogonoff de Frango</h2>
+                <p class="event__details__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, provident repellat sunt placeat neque officiis vel. Debitis odit, iusto mollitia in molestiae ea voluptas laboriosam? Recusandae ea maxime exercitationem harum?
+                </p>
+            </div>
+            <img class="event__image" src="./images/batatastrog.jpg" alt="frontend">
+        </div>
+    </section>
+    <section class="event event--fondueQueijo">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Batata com recheio de Carne Louca</h2>
+                <p class="event__details__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, provident repellat sunt placeat neque officiis vel. Debitis odit, iusto mollitia in molestiae ea voluptas laboriosam? Recusandae ea maxime exercitationem harum?
+                </p>
+            </div>
+            <img class="event__image" src="./images/carne2.jpg" alt="frontend">
+        </div>
+    </section>
+    <section class="event event--RequeijaoBacon event--image-left">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Batata com recheio de Requeijão com Bacon</h2>
+                <p class="event__details__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, provident repellat sunt placeat neque officiis vel. Debitis odit, iusto mollitia in molestiae ea voluptas laboriosam? Recusandae ea maxime exercitationem harum?
+                </p>
+            </div>
+            <img class="event__image" src="./images/batatabacon.jpg" alt="frontend">
+        </div>
+    </section>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="/src/scripts/main.js"></script>
 </html>
+
+
+
+
